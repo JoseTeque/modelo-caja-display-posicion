@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 3</title>
+</head>
+
+<style>
+    .main {
+        width: 100%;
+        height: 45vh;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+
+    .caja{
+        box-sizing: border-box;
+        display: inline-block;
+        width: 49%;
+    }
+
+    .españa{
+        border: 1px solid #e1e1e1;
+        height: 100%;
+        
+    }
+
+    .rojo{
+        background-color: red;
+    }
+
+    .españa .rojo{
+        height: 30%;
+    }
+
+    .españa .amarillo{
+        background-color: yellow;
+        height: 40%;
+    }
+
+    .dinamarca{
+        border: 1px solid #e1e1e1;
+        height: 100%;
+        position: relative;
+    }   
+
+    .dinamarca .blancohorizontal{
+        background-color: white;
+        height: 10%;
+    }
+
+    .blancovertical {
+        background-color: white;
+        width: 5%;
+        position: absolute;
+        height: 100%;
+        top: 0;
+        right: 70%;
+    }
+
+    .dinamarca .rojo{
+        height: 45%;
+    }
+
+    /* emiratosArabe */
+    .Emiratos-arabe{
+        border: 1px solid #e1e1e1;
+        height: 100%;
+        position: relative;
+        margin: 0;
+        padding: 0;
+    }
+
+    .Emiratos-arabe .rojo{
+        width: 20%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        
+    }
+
+    .Emiratos-arabe .verde{
+        background-color: green;
+        width: 80%;
+        height: 33.3%;
+        position: absolute;
+        left: 20%;
+    }
+
+    .Emiratos-arabe .blanco{
+        background-color: white;
+        width: 80%;
+        height: 33.3%;
+        position: absolute;
+        left: 20%;
+        top: 33.3%;
+    }
+
+    .Emiratos-arabe .negro{
+        background-color: black;
+        width: 80%;
+        height: 33.3%;
+        position: absolute;
+        left: 20%;
+        top: 66.6%;
+    }
+
+    .japon{
+        position: relative;
+        border: 1px solid #e1e1e1;
+        height: 100%;
+    }
+
+    /* JAPON */
+    .japon .rojo{
+        background-color: red;
+        width: 20%;
+        height: 40%;
+        border-radius: 50%;
+        top: 30%;
+        right: 40%;
+        position: absolute;
+    }
+
+</style>
+
+<body>
+
+    <section class="main">
+
+            <section class="caja españa">
+                <div class="rojo"></div>
+                <div class="amarillo"></div>
+                <div class="rojo"></div>
+            </section>
+
+            <section class="caja dinamarca">
+                <div class="rojo"></div>
+                <div class="blancohorizontal"></div>
+                <div class="blancovertical"></div>
+                <div class="rojo"></div>
+            </section>
+
+            <section class="caja Emiratos-arabe">
+                <div class="rojo"></div>
+                <div class="verde"></div>
+                <div class="blanco"></div>
+                <div class="negro"></div>
+            </section>
+
+            <section class="caja japon">
+                <div class="rojo"></div>
+            </section>
+
+            <!-- <section class="dinamarca"></section>
+            <section class="emiratos-arabes"></section>
+            <section class="japon"></section> -->
+
+    </section>
+</body>
+
+</html>
